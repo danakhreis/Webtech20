@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webtech2020</title>
+    <link href="./styles/mystyles.css" rel="stylesheet">
+    <title>Teilnehmer_innen von H-L</title>
+</head>
+<body>
+<header>
+    <h1>Teilnehmer_innen WebTech</h1>
+    <img src="../images/fiw.jpg" style="width:53px; height:48px;"/>
+    <style>
+    header
+    {
+        background-color: #AFAFAF;
+        text-align: center;
+        }
+        .nav-link {
+        background-color: lightgrey;
+        color:orange;
+        font-size: large;
+        }
+        .nav-link:hover {
+            color: #0082D1;
+        }
+        .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+            background-color: #76B900;
+        }
+        h1{
+            display: inline;
+            padding-left: 25%;
+        }
+        footer{
+            background-color: lightgrey;
+            font-size: small;
+        }
+        /* Mobile als Standard */
+        .rechts, .links {
+                background-color: #FF5F00;
+                height: 100px;
+            }
+
+        @media screen and (min-width: 992px) {
+            .rechts, .links {
+                background-color: lightgrey;
+                height: auto;
+            }
+        }
+    </style>
+</header>
+<section>
+    <h3>Alle Teilnehmer_innen von H-L</h3>
+    <table>
+        <thead>
+        <div class="links col-12 col-lg-2">
+            <h2>links</h2>
+        </div>
+        <div class="table-responsive col-12 col-lg-8">
+            <table class="table table-striped table-hover">
+        <tr>
+            <th>Vorname</th>
+            <th>Nachname</th>
+            <th>E-Mail-Adresse</th>
+            <th>IP-Adresse</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <tr>
+            <td>Steven</td>
+            <td>Hamilton</td>
+            <td>shamiltonu@state.tx.us</td>
+            <td>38.194.91.201</td>
+        </tr>
+        <tr>
+            <td>Virginia</td>
+            <td>Hawkins</td>
+            <td>vhawkinsf@ehow.com</td>
+            <td>93.120.46.203</td>
+        </tr>
+        <tr>
+            <td>Edward</td>
+            <td>Hicks</td>
+            <td>ehicksc@pcworld.com</td>
+            <td>199.153.27.1</td>
+        </tr>
+        <tr>
+            <td>Mark</td>
+            <td>Johnson</td>
+            <td>mjohnsonj@hostgator.com</td>
+            <td>73.87.135.206</td>
+        </tr>
+        <tr>
+            <td>Ruth</td>
+            <td>Jordan</td>
+            <td>rjordan1a@smugmug.com</td>
+            <td>193.140.80.64</td>
+        </tr>
+        <tr>
+            <td>Antonio</td>
+            <td>Kim</td>
+            <td>akim4@odnoklassniki.ru</td>
+            <td>168.244.191.78</td>
+        </tr>
+            </table>
+        </div>
+        </tbody>
+    </table>
+    <div class="rechts col-12 col-lg-2">
+        <h2>rechts</h2>
+    </div>
+</section>
+<footer>
+    <p>Dana Khreis</p>
+</footer>
+</body>
+</html>
